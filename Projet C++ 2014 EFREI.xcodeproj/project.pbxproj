@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		357A8550187ADFF10008E904 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357A854E187ADFF10008E904 /* Sphere.cpp */; };
 		5C58044E185DB6DB004BDE0D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C58044D185DB6DB004BDE0D /* main.cpp */; };
 		5C580450185DB6DB004BDE0D /* Projet_C___2014_EFREI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C58044F185DB6DB004BDE0D /* Projet_C___2014_EFREI.1 */; };
 		5C580458185DB70B004BDE0D /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C580456185DB70A004BDE0D /* vector.cpp */; };
@@ -32,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		357A854E187ADFF10008E904 /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		357A854F187ADFF10008E904 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
 		5C58044A185DB6DB004BDE0D /* Projet C++ 2014 EFREI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Projet C++ 2014 EFREI"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C58044D185DB6DB004BDE0D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5C58044F185DB6DB004BDE0D /* Projet_C___2014_EFREI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Projet_C___2014_EFREI.1"; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				5C580456185DB70A004BDE0D /* vector.cpp */,
 				5C580457185DB70B004BDE0D /* vector.h */,
 				5C58044F185DB6DB004BDE0D /* Projet_C___2014_EFREI.1 */,
+				357A854E187ADFF10008E904 /* Sphere.cpp */,
+				357A854F187ADFF10008E904 /* Sphere.h */,
 			);
 			path = "Projet C++ 2014 EFREI";
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C58044E185DB6DB004BDE0D /* main.cpp in Sources */,
+				357A8550187ADFF10008E904 /* Sphere.cpp in Sources */,
 				5C580458185DB70B004BDE0D /* vector.cpp in Sources */,
 				5C58045B185DBD43004BDE0D /* Matrice.cpp in Sources */,
 				5C58045E185F3FBB004BDE0D /* Object.cpp in Sources */,
@@ -258,6 +264,7 @@
 				5C580455185DB6DB004BDE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
